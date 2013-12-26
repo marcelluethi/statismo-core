@@ -225,7 +225,9 @@ private:
 
 } // namespace statismo
 
+#ifndef STATISMO_MANUAL_INSTANTIATION
 #include "DataItem.txx"
+#endif 
 
 #endif // __SAMPLE_DATA_H
 

@@ -223,6 +223,8 @@ protected:
 
 }
 
+#ifndef STATISMO_MANUAL_INSTANTIATION
 #include "DataManager.txx"
+#endif 
 
 #endif /* __DATAMANAGER_H_ */

@@ -144,6 +144,8 @@ private:
 
 } // namespace statismo
 
+#ifndef STATISMO_MANUAL_INSTANTIATION
 #include "PosteriorModelBuilder.txx"
+#endif 
 
 #endif /* __POSTERIORMODELBUILDER_H_ */

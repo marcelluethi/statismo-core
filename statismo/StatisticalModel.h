@@ -597,6 +597,8 @@ private:
 
 } // namespace statismo
 
+#ifndef STATISMO_MANUAL_INSTANTIATION
 #include "StatisticalModel.txx"
+#endif 
 
 #endif /* STATISTICALMODEL_H_ */

@@ -107,6 +107,8 @@ private:
 
 } // namespace statismo
 
+#ifndef STATISMO_MANUAL_INSTANTIATION
 #include "ReducedVarianceModelBuilder.txx"
+#endif 
 
 #endif /* __ReducedVarianceModelBuilder_H_ */

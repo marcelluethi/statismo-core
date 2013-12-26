@@ -266,9 +266,9 @@ public:
 };
 
 } // namespace statismo
-
+#ifndef STATISMO_MANUAL_INSTANTIATION
 #include "HDF5Utils.cxx"
-
+#endif
 
 
 #endif /* HDF5UTILS_H_ */

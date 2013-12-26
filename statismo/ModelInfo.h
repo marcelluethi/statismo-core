@@ -229,6 +229,8 @@ private:
 
 } // namespace statismo
 
+#ifndef STATISMO_MANUAL_INSTANTIATION
 #include "ModelInfo.cxx"
+#endif 
 
 #endif /* MODELINFO_H_ */

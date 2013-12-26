@@ -131,6 +131,8 @@ private:
 
 } // namespace statismo
 
+#ifndef STATISMO_MANUAL_INSTANTIATION
 #include "ConditionalModelBuilder.txx"
+#endif 
 
 #endif /* __PCAMODELBUILDER_H_ */

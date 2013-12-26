@@ -136,7 +136,8 @@ protected:
 
 }
 
+#ifndef STATISMO_MANUAL_INSTANTIATION
 #include "DataManagerWithSurrogates.txx"
-
+#endif
 
 #endif /* __DATAMANAGERWITHSURROGATES_H_ */

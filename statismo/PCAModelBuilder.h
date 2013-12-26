@@ -113,6 +113,8 @@ private:
 
 } // namespace statismo
 
+#ifndef STATISMO_MANUAL_INSTANTIATION
 #include "PCAModelBuilder.txx"
+#endif 
 
 #endif /* __PCAMODELBUILDER_H_ */
